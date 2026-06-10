@@ -1,0 +1,34 @@
+# large / generated
+checkpoints/
+src/checkpoints/
+logs/
+outputs/
+src/data/medmcqa/
+src/data/medmcqa_skewed_backup/
+
+# caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# secrets
+.env
+*.env
+src/.env
+token.md
+*token*
+
+# slurm / run artifacts
+*.err
+*.out
+*.log
+
+# working docs (md) — README, CLAUDE만 유지
+*.md
+!README.md
+!CLAUDE.md
+TODO.txt
+
+# misc
+*.pdf
+.DS_Store

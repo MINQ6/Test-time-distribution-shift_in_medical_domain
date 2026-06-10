@@ -1,0 +1,32 @@
+# ===== secrets (절대 업로드 금지) =====
+token.md
+*token*
+**/.env
+FedTTA/src/.env
+
+# ===== large / generated =====
+FedTTA/checkpoints/
+FedTTA/src/checkpoints/
+FedTTA/logs/
+FedTTA/outputs/
+FedTTA/src/data/medmcqa/
+FedTTA/src/data/medmcqa_skewed_backup/
+
+# ===== caches =====
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== slurm artifacts =====
+*.err
+*.out
+*.log
+
+# ===== working md docs — CLAUDE.md / README.md 만 유지 =====
+*.md
+!FedTTA/CLAUDE.md
+!FedTTA/README.md
+FedTTA/TODO.txt
+
+# ===== misc =====
+.DS_Store
